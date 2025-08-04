@@ -11,4 +11,5 @@ lalu jalankan (Untuk melihat detail coverage):
 coverage report
 
 # Url Google Sheets:
-https://docs.google.com/spreadsheets/d/1JZbYxtif9lSF_SdWA2hV_kjGIdR-CBVM2DMzlkSBTWU/edit?usp=sharing
+
+https://docs.google.com/spreadsheets/d/1f83u8QaFKaJPBxP0p-oKlYMXA67BhRaS_wKGuJdNaW4/edit?usp=sharing
