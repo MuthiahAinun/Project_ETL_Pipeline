@@ -2,7 +2,7 @@ import pandas as pd
 
 def clean_price(price_str):
     try:
-        return int(float(price_str.replace("$", "")) * 16000)
+        return float(price_str.replace("$", "")) * 16000
     except:
         return None
 
@@ -41,4 +41,5 @@ def transform_data(df):
         return df
     except Exception as e:
         print(f"Error during transformation: {e}")
+
         return pd.DataFrame([])
