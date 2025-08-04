@@ -53,7 +53,7 @@ def load_to_google_sheets(df, credentials_path="credentials.json", sheet_url=Non
         print("🔍 Pastikan akses EDITOR diberikan dan file 'credentials.json' tersedia.")
 
 
-def load_to_postgresql(df, table_name="fashion_products"):
+def load_to_postgresql(df, table_name="etl_products"):
     try:
         if df.empty:
             print("⚠️ Data kosong, tidak dikirim ke PostgreSQL.")
@@ -67,3 +67,4 @@ def load_to_postgresql(df, table_name="fashion_products"):
         print(f"✅ Data berhasil dikirim ke PostgreSQL → tabel '{table_name}' ({len(df)} baris).")
     except Exception as e:
         print(f"❌ Gagal menyimpan ke PostgreSQL: {e}")
+
